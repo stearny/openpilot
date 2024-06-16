@@ -1090,12 +1090,14 @@ FW_VERSIONS = {
       b'\xf1\x00MQ4 MFC  AT USA LHD 1.00 1.00 99210-R5100 221019',
       b'\xf1\x00MQ4 MFC  AT USA LHD 1.00 1.03 99210-R5000 200903',
       b'\xf1\x00MQ4 MFC  AT USA LHD 1.00 1.05 99210-R5000 210623',
+      b'\xf1\x00MQ4 MFC  AT USA LHD 1.01 1.04 99210-R5500 231127',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00MQ4_ SCC F-CUP      1.00 1.06 99110-P2000         ',
       b'\xf1\x00MQ4_ SCC FHCUP      1.00 1.00 99110-R5000         ',
       b'\xf1\x00MQ4_ SCC FHCUP      1.00 1.06 99110-P2000         ',
       b'\xf1\x00MQ4_ SCC FHCUP      1.00 1.08 99110-P2000         ',
+      b'\xf1\x00MQ4_ RDR -----      1.00 1.01 99110-R5500         ',
     ],
   },
   CAR.KIA_SORENTO_HEV_4TH_GEN: {
