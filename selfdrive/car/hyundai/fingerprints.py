@@ -950,7 +950,6 @@ FW_VERSIONS = {
       b'\xf1\x00UMP LKAS AT KOR LHD 1.00 1.00 95740-C5550 S30',
       b'\xf1\x00UMP LKAS AT USA LHD 1.00 1.00 95740-C6550 d00',
       b'\xf1\x00UMP LKAS AT USA LHD 1.01 1.01 95740-C6550 d01',
-      b'\xf1\x00MQ4 MFC  AT USA LHD 1.01 1.04 99210-R5500 231127',
     ],
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00UM ESC \x02 12 \x18\x05\x05 58910-C6300',
@@ -960,16 +959,6 @@ FW_VERSIONS = {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00UM__ SCC F-CUP      1.00 1.00 96400-C5500         ',
       b'\xf1\x00UM__ SCC F-CUP      1.00 1.00 96400-C6500         ',
-      b'\xf1\x00MQ4_ RDR -----      1.00 1.01 99110-R5500         ',
-    ],
-    (Ecu.combinationMeter, 0x7C6, None): [
-      b'\xf1\x8b $\x01%',
-    ],
-    (Ecu.hvac, 0x7B3, None): [
-      b'\xf1\x8b #\x12\x07',
-    ],
-    (Ecu.cornerRadar, 0x7B7, None): [
-      b'\xf1\x8b #\x11% #\x12\x01\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
   CAR.KIA_EV6: {
@@ -1101,12 +1090,14 @@ FW_VERSIONS = {
       b'\xf1\x00MQ4 MFC  AT USA LHD 1.00 1.00 99210-R5100 221019',
       b'\xf1\x00MQ4 MFC  AT USA LHD 1.00 1.03 99210-R5000 200903',
       b'\xf1\x00MQ4 MFC  AT USA LHD 1.00 1.05 99210-R5000 210623',
+      b'\xf1\x00MQ4 MFC  AT USA LHD 1.01 1.04 99210-R5500 231127',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00MQ4_ SCC F-CUP      1.00 1.06 99110-P2000         ',
       b'\xf1\x00MQ4_ SCC FHCUP      1.00 1.00 99110-R5000         ',
       b'\xf1\x00MQ4_ SCC FHCUP      1.00 1.06 99110-P2000         ',
       b'\xf1\x00MQ4_ SCC FHCUP      1.00 1.08 99110-P2000         ',
+      b'\xf1\x00MQ4_ RDR -----      1.00 1.01 99110-R5500         ',
     ],
   },
   CAR.KIA_SORENTO_HEV_4TH_GEN: {
@@ -1120,6 +1111,15 @@ FW_VERSIONS = {
       b'\xf1\x00MQhe SCC FHCUP      1.00 1.04 99110-P4000         ',
       b'\xf1\x00MQhe SCC FHCUP      1.00 1.06 99110-P4000         ',
       b'\xf1\x00MQhe SCC FHCUP      1.00 1.07 99110-P4000         ',
+    ],
+    (Ecu.combinationMeter, 0x7C6, None): [
+      b'\xf1\x8b $\x01%',
+    ],
+    (Ecu.hvac, 0x7B3, None): [
+      b'\xf1\x8b #\x12\x07',
+    ],
+    (Ecu.cornerRadar, 0x7B7, None): [
+      b'\xf1\x8b #\x11% #\x12\x01\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
   CAR.KIA_NIRO_HEV_2ND_GEN: {
